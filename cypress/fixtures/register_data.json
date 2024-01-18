@@ -1,0 +1,7 @@
+{
+  "validName": "Maria Eugênia",
+  "validEmail": "teste@email.com",
+  "validPassword": "987654",
+  "invalidEmail": "emailinvalido",
+  "invalidPassword": "123"
+}
