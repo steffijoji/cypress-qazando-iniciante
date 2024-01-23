@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       # exemplo de execução no terminal
-      - name: instalar dependências do projeto
+      - name: Instalar dependências do projeto
         run: echo Steffi Joji
 
       # execução e configuração do projeto
