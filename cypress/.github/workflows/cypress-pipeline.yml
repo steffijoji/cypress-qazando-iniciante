@@ -2,9 +2,7 @@
 name: Run Basic Tests
 
 # em que momento será executada
-on:
-  pull_request: 
-    branches: [main]
+on: pull_request
 
 jobs:
   # o que vai ser feito nessa pipeline
