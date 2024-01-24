@@ -2,9 +2,7 @@
 name: Run Basic Tests
 
 # em que momento será executada
-on:
-  pull_request: 
-    branches: [main]
+on: push
 
 jobs:
   # o que vai ser feito nessa pipeline
@@ -21,7 +19,7 @@ jobs:
 
       # exemplo de execução no terminal
       - name: Instalar dependências do projeto
-        run: echo Steffi Y S Joji
+        run: echo Steffi Joji
 
       # execução e configuração do projeto
       - name: Run testes
