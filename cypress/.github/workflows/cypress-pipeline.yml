@@ -8,6 +8,7 @@ jobs:
   # o que vai ser feito nessa pipeline
   # só teremos um job: rodar os testes
   cypress-run:
+    name: Cypress run
     # máquina em que será executado
     runs-on: windows-latest
 
@@ -22,11 +23,11 @@ jobs:
         run: echo Steffi Joji
 
       # execução e configuração do projeto
-      - name: Cypress run
+      - name: Run Tests
         uses: cypress-io/github-action@v6
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         with:
           record: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         
-          
+        
