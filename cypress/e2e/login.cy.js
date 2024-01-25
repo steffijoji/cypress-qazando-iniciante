@@ -31,7 +31,7 @@ describe('Login', () => {
         login_page.fillEmail(faker.internet.email())
         login_page.fillPassword('123')
         login_page.clickLoginButton()
-        login_page.checkErrorMessage('Senha inváli.')
+        login_page.checkErrorMessage('Senha inválida.')
     })
 
     it('Login com sucesso', () => {
